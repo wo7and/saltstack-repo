@@ -1,2 +1,3 @@
-user: george
-fullname: George Patchwork
+{% import 'pillar_conf.jinja' as conf %}
+user: {{ conf.user }}
+fullname: {{ conf.fullname }}
